@@ -1,15 +1,15 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="tr">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Ayşe & Fatih | Düğün Davetiyesi" />
-  <title>Ayşe & Fatih | Düğün Davetiyesi</title>
+  <meta name="description" content="Nur Sena & Mert | Kına ve Düğün Davetiyesi" />
+  <title>Nur Sena & Mert | Kına ve Düğün Davetiyesi</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@300;400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Manrope:wght@300;400;500;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -17,7 +17,7 @@
 <body>
   <header class="site-header" role="banner">
     <div class="container header-inner">
-      <div class="brand">Ayşe &amp; Fatih</div>
+      <div class="brand">Nur Sena &amp; Mert</div>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav">
         <span class="nav-toggle-label">Menü</span>
         <span class="nav-toggle-icon" aria-hidden="true">
@@ -28,33 +28,32 @@
       </button>
       <nav id="primaryNav" class="site-nav" aria-label="Ana menü">
         <a href="#details">Detaylar</a>
+        <a href="#date">Tarih</a>
         <a href="#location">Konum</a>
-        <a href="#program">Program</a>
-        <a href="#rsvp">Katılım Formu</a>
+        <a href="#rsvp">Katılım</a>
       </nav>
     </div>
   </header>
   <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
 
   <main id="main">
-    <!-- Hero: Split layout with portrait photo -->
     <section id="hero" class="hero">
-      <div class="hero-bg" style="background-image: url('./hero-wedding.jpg');"></div>
+      <div class="hero-bg" style="background-image: url('./gorsel1.jpg');"></div>
       <div class="hero-overlay"></div>
       <div class="hero-container">
         <div class="hero-text">
-          <p class="eyebrow">Özel Davet</p>
-          <h1 id="typewriter">MASAL GİBİ DÜĞÜN</h1>
-          <p class="names">Ayşe &amp; Fatih</p>
-          <p class="tagline">Katılımınız bizleri onurlandıracaktır.</p>
+          <div class="heart-mark" aria-hidden="true">♥♥</div>
+          <p class="eyebrow">Kına ve Düğün Daveti</p>
+          <h1 id="typewriter">Nur Sena &amp; Mert</h1>
+          <p class="tagline">Bu mutlu günümüzde sizleri de aramızda görmekten mutluluk duyarız.</p>
           <div class="hero-actions">
-            <a class="btn" href="#location">Konumu Aç</a>
-            <a class="btn" href="#rsvp">Katılım Formu</a>
+            <a class="btn primary" href="#date">Tarihleri Gör</a>
+            <a class="btn" href="#rsvp">Katılım Bildir</a>
           </div>
         </div>
-        <div class="hero-image">
-          <img src="./hero-wedding.jpg" alt="Düğün çekimi">
-        </div>
+        <figure class="hero-image">
+          <img src="./gorsel1.jpg" alt="Nur Sena ve Mert davetiye görseli">
+        </figure>
       </div>
     </section>
 
@@ -64,28 +63,20 @@
       <section id="details" class="section reveal">
         <div class="section-header">
           <p class="section-eyebrow">Aileler</p>
-          <h2>Aile Bilgisi</h2>
-        </div>
-        <div class="paper family-card">
-          <div>
-            <h3>Ayşe</h3>
-            <p>Zeynep &amp; Mehmet Yılmaz'ın kıymetli kızları</p>
-          </div>
-          <div>
-            <h3>Fatih</h3>
-            <p>Sema &amp; Ahmet Demir'in değerli oğulları</p>
-          </div>
-        </div>
-
-        <div class="section-header mt">
-          <p class="section-eyebrow">Davet Metni</p>
           <h2>Mutlu Günümüz</h2>
         </div>
-        <p class="ceremony-text">"Hayatın en güzel günlerinden birini sizlerle paylaşmak istiyoruz. Düğün törenimizde bizlere eşlik etmeniz, en büyük mutluluğumuz olacaktır. Katılımınız bizleri onurlandıracaktır."</p>
 
-        <div class="paper info-box">
-          <p>💍 Düğün törenimiz, iki ailenin birleşmesinin simgesi olacaktır. Samimi ve keyifli bir gün geçireceğimiz mekanımızda sizi bekliyoruz.</p>
-          <p>Tüm gün boyunca lezzetli yemekler, güzel müzik ve birlikte geçeceğimiz anılar sizi bekliyor.</p>
+        <p class="ceremony-text">Bu mutlu günümüzde sizleri de aramızda görmekten mutluluk duyarız.</p>
+
+        <div class="paper family-card">
+          <div>
+            <span class="family-label">Gelin Ailesi</span>
+            <h3>Muazzez &amp; Ulvi Şahin</h3>
+          </div>
+          <div>
+            <span class="family-label">Damat Ailesi</span>
+            <h3>Meltem &amp; Metin Akgün</h3>
+          </div>
         </div>
       </section>
 
@@ -93,12 +84,26 @@
 
       <section id="date" class="section reveal">
         <div class="section-header">
-          <p class="section-eyebrow">Tarih &amp; Saat</p>
-          <h2>20 Şubat 2026 • Perşembe</h2>
-          <p class="time-range">19.00 – 01.00</p>
+          <p class="section-eyebrow">Kına &amp; Düğün</p>
+          <h2>Etkinlik Bilgileri</h2>
         </div>
 
-        <div class="countdown">
+        <div class="event-grid">
+          <article class="paper event-card">
+            <p class="event-type">Kına</p>
+            <h3>27/06/2026</h3>
+            <p class="time-range">Saat: 19:00-23:00</p>
+            <address>Gölevi Mah.<br>Devlet Sahil Yolu No: 358<br>Ünye / Ordu<br>Yanıklar Otel</address>
+          </article>
+          <article class="paper event-card">
+            <p class="event-type">Düğün</p>
+            <h3>04/07/2026</h3>
+            <p class="time-range">Saat: 19:00-23:00</p>
+            <address>Maden Mah. Boğazkent Cad.<br>Sarıtoprak Sk. No:1<br>Sarıyer / İstanbul<br>Sarıyer Garden</address>
+          </article>
+        </div>
+
+        <div class="countdown" aria-label="Düğüne kalan süre">
           <div class="count-item"><span id="days">00</span><small>Gün</small></div>
           <div class="count-item"><span id="hours">00</span><small>Saat</small></div>
           <div class="count-item"><span id="minutes">00</span><small>Dakika</small></div>
@@ -112,10 +117,20 @@
       <section id="location" class="section reveal">
         <div class="section-header">
           <p class="section-eyebrow">Konum</p>
-          <h2>Sait Halim Paşa Yalısı</h2>
+          <h2>Adresler</h2>
         </div>
-        <address class="paper address">Yeniköy Mahallesi<br>Köybaşı Caddesi No: 83<br>Sarıyer / İSTANBUL</address>
-        <div class="actions-row"><a class="btn" id="mapsButton" href="https://www.google.com/maps/search/?api=1&query=Sait%20Halim%20Pa%C5%9Fa%20Yal%C4%B1s%C4%B1%0AYenik%C3%B6y%20Mahallesi%0AK%C3%B6yba%C5%9F%C4%B1%20Caddesi%20No%3A%2083%0ASar%C4%B1yer%20%2F%20%C4%B0STANBUL" target="_blank" rel="noreferrer">Google Maps’te Aç</a>
+
+        <div class="location-grid">
+          <div class="paper address-card">
+            <h3>Kına Konumu</h3>
+            <address>Yanıklar Otel<br>Gölevi Mah. Devlet Sahil Yolu No: 358<br>Ünye / Ordu</address>
+            <a class="btn" id="kinaMapsButton" href="https://www.google.com/maps/search/?api=1&query=Yan%C4%B1klar%20Otel%20G%C3%B6levi%20Mah.%20Devlet%20Sahil%20Yolu%20No%3A%20358%20%C3%9Cnye%20Ordu" target="_blank" rel="noreferrer">Kına Konumunu Aç</a>
+          </div>
+          <div class="paper address-card">
+            <h3>Düğün Konumu</h3>
+            <address>Sarıyer Garden<br>Maden Mah. Boğazkent Cad. Sarıtoprak Sk. No:1<br>Sarıyer / İstanbul</address>
+            <a class="btn primary" id="mapsButton" href="https://www.google.com/maps/search/?api=1&query=Sar%C4%B1yer%20Garden%20Maden%20Mah.%20Bo%C4%9Fazkent%20Cad.%20Sar%C4%B1toprak%20Sk.%20No%3A1%20Sar%C4%B1yer%20%C4%B0stanbul" target="_blank" rel="noreferrer">Düğün Konumunu Aç</a>
+          </div>
         </div>
       </section>
 
@@ -123,35 +138,20 @@
 
       <section id="program" class="section reveal">
         <div class="section-header">
-          <p class="section-eyebrow">Program Akışı</p>
-          <h2>Gün Boyunca</h2>
+          <p class="section-eyebrow">Program</p>
+          <h2>Davet Akışı</h2>
         </div>
         <div class="paper timeline">
-          <div class="timeline-item"><strong>19:00</strong><span>Karşılama & Kokteyl</span></div>
-          <div class="timeline-item"><strong>19:30</strong><span>Nikah Töreni</span></div>
-          <div class="timeline-item"><strong>20:00</strong><span>Fotoğraf Çekimi & İkram</span></div>
-          <div class="timeline-item"><strong>20:30</strong><span>İlk Dans & Müzik</span></div>
-          <div class="timeline-item"><strong>21:30</strong><span>Pasta & Tatlı Servisi</span></div>
-          <div class="timeline-item"><strong>22:00</strong><span>Eğlence & Dans</span></div>
-          <div class="timeline-item"><strong>01:00</strong><span>Kapanış</span></div>
+          <div class="timeline-item"><strong>27 Haziran</strong><span>Kına gecesi, Yanıklar Otel'de 19:00-23:00 arasında gerçekleşecektir.</span></div>
+          <div class="timeline-item"><strong>04 Temmuz</strong><span>Düğün daveti, Sarıyer Garden'da 19:00-23:00 arasında gerçekleşecektir.</span></div>
         </div>
-      </section>
-
-      <hr class="divider">
-
-      <section id="dresscode" class="section reveal">
-        <div class="section-header">
-          <p class="section-eyebrow">Dress Code</p>
-          <h2>Düğün Şıklığı</h2>
-        </div>
-        <p class="ceremony-text">Lütfen formal giyim tercih ediniz. Erkekler smoking veya koyu takım, bayanlar ise gece elbisesi ile davet ediyoruz.</p>
       </section>
 
       <hr class="divider">
 
       <section id="rsvp" class="section reveal">
         <div class="section-header">
-          <p class="section-eyebrow">Katılım Formu</p>
+          <p class="section-eyebrow">Katılım</p>
           <h2>Katılım Formu</h2>
         </div>
         <form class="paper rsvp-form" id="rsvpForm" onsubmit="return false;"
@@ -178,21 +178,18 @@
           <label class="form-field"><span class="field-label">Not (opsiyonel)</span><textarea name="note"
               rows="3"></textarea></label>
 
-          <!-- IBAN Gift Info - shown when "Gelemiyorum" is selected -->
           <div class="gift-info" id="giftInfo" style="display: none;">
-            <p class="gift-message">Bizim için en büyük hediye güzel dileklerinizdir.<br>Katılamayıp yine de katkıda
-              bulunmak isteyen misafirlerimiz için bilgileri buraya ekledik.</p>
+            <p class="gift-message">Bizim için en büyük hediye güzel dileklerinizdir.</p>
             <div class="iban-box">
-              <p class="iban-number">TR89 0002 1234 5678 9012 3456 78</p>
-              <p class="iban-name">Ayşe Demir</p>
-              <p class="iban-name">[AD SOYAD]</p>
+              <p class="iban-name">Nur Sena &amp; Mert</p>
+              <p class="iban-name">Katkı bilgisi daha sonra paylaşılacaktır.</p>
             </div>
             <p class="gift-disclaimer">Katkı tamamen isteğe bağlıdır.</p>
           </div>
 
           <div class="form-actions">
-            <button id="sheetsButton" class="btn primary" type="button">Google Sheets’e Gönder</button>
-            <a id="whatsappButton" class="btn" href="https://wa.me/905551234567" target="_blank"
+            <button id="sheetsButton" class="btn primary" type="button">Google Sheets'e Gönder</button>
+            <a id="whatsappButton" class="btn" href="https://wa.me/905055808758" target="_blank"
               rel="noopener noreferrer">WhatsApp ile Gönder</a>
           </div>
         </form>
@@ -201,15 +198,12 @@
       </section>
 
       <footer class="site-footer">
-        <p>Düğün günü sizinle paylaşmak için sabırsızlanıyoruz.</p>
-        <p>Bu mutlu günümüzde sizleri aramızda görmekten onur duyarız.</p>
-        <p>Minik misafirlerimize tatlı uykular dileriz.</p>
-        <small>Yılmaz &amp; Demir Aileleri</small>
+        <p>Bu mutlu günümüzde sizleri de aramızda görmekten mutluluk duyarız.</p>
+        <small>Şahin &amp; Akgün Aileleri</small>
       </footer>
     </div>
   </main>
 
-  <!-- modal -->
   <div id="rsvpModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <div class="modal-card">
       <button class="modal-close" aria-label="Kapat">×</button>
